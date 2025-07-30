@@ -1,5 +1,5 @@
 
-public class Reverse {
+public class M {
     public static void main(String[] args) {
 
         String name = "Rohit";
@@ -11,10 +11,10 @@ public class Reverse {
         }
         System.out.println(reverseName);
 
-        if(str.equals(reverseName)){
-            System.out.println("it is palindrome")
-        }else{
-            System.out.println("it is not palindrome"
+        if (name.equals(reverseName)) {
+            System.out.println("it is palindrome");
+        } else {
+            System.out.println("it is not palindrome");
         }
 
     }

@@ -1,14 +1,11 @@
 public class If1 {
     public static void main(String[] args) {
-        String city = "Delhi";
-        if (city == "Meerut") {
-            System.out.println("city is meerut");
-        } else if (city == "Noida") {
-            System.out.println("city is noida");
-        } else if (city == "Agra") {
-            System.out.println("city is agra");
+        int a = 10;
+        int b = 20;
+        if (a + b < 20) {
+            System.out.println("a+b is the grether than 20 ");
         } else {
-            System.out.println(city);
+            System.out.println("a+b is a less than 20");
         }
     }
 }
